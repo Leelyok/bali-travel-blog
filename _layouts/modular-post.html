@@ -2,10 +2,11 @@
 layout: default
 ---
 
+{% raw %}
 
 {% for block in page.page_blocks %}
     {% include /blocks/{{block._id}}.html %}
 {% endfor %}
-
+{% endraw %}
 
 {% include related-posts.html %}
