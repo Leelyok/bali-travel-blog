@@ -1066,6 +1066,9 @@ a {
 .min-h-\[60\] {
   min-height: 60;
 }
+.min-h-45 {
+  min-height: 45vh;
+}
 .w-1\/2 {
   width: 50%;
 }
